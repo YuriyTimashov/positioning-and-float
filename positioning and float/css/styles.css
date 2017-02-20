@@ -1,0 +1,133 @@
+body {
+  font-family: 'PT Sans', Arial;
+  height: 2000px;
+  padding: 0;
+}
+
+.wrapper {
+  position: relative;
+  width: 523px;
+  margin: 200px auto 0 auto;
+}
+
+.wrapper div {
+  border: 2px solid black;
+}
+
+.page-3, .page-2 {
+  width: 523px;
+  height: 753px;
+  position: absolute;
+}
+
+.page-3 {
+  background-color: rgb(172, 172, 172);
+  left: 40px;
+  top: 40px;
+}
+
+.page-2 {
+  background-color: rgb(204, 204, 204);
+  left: 20px;
+  top: 20px;
+}
+
+.page-1 {
+  min-width: 458px;
+  min-height: 678px;
+  background-color: rgb(235, 235, 235);
+  position: absolute;
+  padding: 40px 30px 35px;
+}
+
+.sticker-3, .sticker-2, .sticker-1 {
+  height: 31px;
+  width: 107px;
+  position: absolute;
+  border-radius: 0 10px 10px 0;
+}
+
+.sticker-3 {
+  top: 38px;
+  left: 431px;
+  background: rgb(11, 174, 235);
+}
+
+.sticker-2 {
+  top: 39px;
+  left: 458px;
+  background: rgb(40, 190, 60);
+}
+
+.sticker-1 {
+  top: 40px;
+  left: 492px;
+  background: rgb(231, 139, 89);
+}
+
+p {
+  font-weight: bold;
+  font-size: 75%;
+}
+
+header h2 {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+figure:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  font-size: 78%;
+
+}
+
+.joke-1, .joke-2 {
+  margin-bottom: 15px;
+}
+
+.joke-1, .joke-3 {
+  float: left;
+}
+
+.joke-2, .joke-4 {
+  float: right;
+}
+
+.social-links {
+  width: 89px;
+  height: 53px;
+  background: #fbaf5d;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+
+.social-links img{
+  margin: 5px 0 0 0;
+}
+
+.social-links p {
+  font-size: 90%;
+  margin: 0;
+}
+
+.cup-img {
+  float: left;
+  margin: 0 20px 15px 0;
+}
+
+.desk-img {
+  float: right;
+}
